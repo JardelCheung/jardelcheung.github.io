@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deploy on Jardel blog</title>
-    <link>https://example.com/tags/deploy/</link>
+    <link>/tags/deploy/</link>
     <description>Recent content in deploy on Jardel blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 09:32:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jul 2021 09:32:00 +0000</lastBuildDate><atom:link href="/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>docker mysql backup</title>
-      <link>https://example.com/docker-mysql-backup/</link>
+      <link>/docker-mysql-backup/</link>
       <pubDate>Sat, 03 Jul 2021 09:32:00 +0000</pubDate>
       
-      <guid>https://example.com/docker-mysql-backup/</guid>
+      <guid>/docker-mysql-backup/</guid>
       <description>定时备份数据库 新建一个backup.sh用于备份成sql文件
 #! /bin/bashBACKUP_DIR=&amp;quot;&amp;lt;备份sql保存位置&amp;gt;&amp;quot;LOG_FILE=&amp;quot;&amp;lt;LOG文件位置&amp;gt;&amp;quot;DATE=`date +%Y-%m-%d_%H-%M`USER=&amp;quot;数据库用户名&amp;quot;PASSWORD=&amp;quot;数据库密码&amp;quot;DATABASE=&amp;quot;数据库名&amp;quot;SQL_FILE=&amp;quot;mysql_$DATE.sql&amp;quot;DOCKER_TAG=&amp;quot;数据库docker name&amp;quot;if [! -d $BACKUP_DIR];thenmkdir -p &amp;quot;$BACKUP_DIR&amp;quot;fiecho -e &amp;quot;\n&amp;quot; &amp;gt;&amp;gt; $LOG_FILEcd $BACKUP_DIRdocker exec -i $DOCKER_TAG mysqldump -u$USER -p$PASSWORD $DATABASE &amp;gt; $SQL_FILEif [[ $? == 0 ]]; thentar czvf $SQL_FILE.gz $SQL_FILE &amp;gt;&amp;gt; $LOG_FILE 2&amp;gt;&amp;amp;1echo &amp;quot;$DATE----- $SQL_FILE.gz backup success!&amp;quot; &amp;gt;&amp;gt; $LOG_FILErm -f $SQL_FILEelseecho &amp;quot;$DATE----- $SQL_FILE.gz backup fail!&amp;quot; &amp;gt;&amp;gt; $LOG_FILEfi 定时删除超过规定时间的备份文件 新建一个clear_backup.</description>
     </item>
     
     <item>
       <title>synology docker nexus</title>
-      <link>https://example.com/synology-nexus-deploy/</link>
+      <link>/synology-nexus-deploy/</link>
       <pubDate>Sat, 03 Jul 2021 01:33:36 +0000</pubDate>
       
-      <guid>https://example.com/synology-nexus-deploy/</guid>
+      <guid>/synology-nexus-deploy/</guid>
       <description> 打开dockerhub查询需要用到的nexus镜像 注意此处dockerhub上readme提示   打开群晖Docker搜索并镜像下载  启动并设置自己自定义设置（包括挂载的文件夹） 挂载目录需要读写权限   启动容器 如果访问不到确认防火墙我这里是关闭的  5.访问nexus重置admin密码 6.设置代理 我这里设置了go/docker/npm的代理，根据自身需求自行添加   </description>
     </item>
     
     <item>
       <title>docker-redis</title>
-      <link>https://example.com/docker-redis/</link>
+      <link>/docker-redis/</link>
       <pubDate>Tue, 15 Jun 2021 21:05:05 -0500</pubDate>
       
-      <guid>https://example.com/docker-redis/</guid>
+      <guid>/docker-redis/</guid>
       <description>拉取镜像 docker pull redis:latest  启动并挂载宿主机目录 (/usr/backup/redis)是我自己宿主机目录 docker run --name some-redis -v /usr/backup/redis:/data -p 6379:6379 -d redis redis-server --appendonly yes  官方文档路径</description>
     </item>
     
     <item>
       <title>mac STF deploy</title>
-      <link>https://example.com/mac-stf-deploy/</link>
+      <link>/mac-stf-deploy/</link>
       <pubDate>Sun, 06 Jun 2021 12:41:41 +0000</pubDate>
       
-      <guid>https://example.com/mac-stf-deploy/</guid>
+      <guid>/mac-stf-deploy/</guid>
       <description>开发环境搭建 STF GitHub 地址
 需要使用brewhome 如何安装brewhome
 安装ndoejs 需要版本8.17.0 brew install node 安装rethinkdb 数据库 （可以在本地安装也可以使用docker跑一个容器） rethinkdb 文档
@@ -49,10 +49,10 @@ brew install rethinkdb 安装 graphicsmagick brew install graphicsmagick 安�
     
     <item>
       <title>Ubuntu UFW(Uncomplicated Firewall)</title>
-      <link>https://example.com/ubuntu-ufw/</link>
+      <link>/ubuntu-ufw/</link>
       <pubDate>Fri, 04 Jun 2021 09:48:55 +0000</pubDate>
       
-      <guid>https://example.com/ubuntu-ufw/</guid>
+      <guid>/ubuntu-ufw/</guid>
       <description>安装 Ubuntu20.04一般都默认安装了UFW（Uncomplicated Firewall），它是一款轻量化的工具，主要用于对输入输出的流量进行监控。如果没有安装，请用下面的命令安装：
 apt install ufw 安装成功后查看状态
 ufw status verbose 启用UFW

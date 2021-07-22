@@ -14,11 +14,11 @@
 package RabbitMqimport (&#34;fmt&#34;&#34;github.com/streadway/amqp&#34;&#34;log&#34;&#34;sync&#34;)const MqUrl = &#34;amqp://guest:guest@192.168.109.132:5672/&#34;type RabbitMQ struct {conn *amqp.Connectionchannel *amqp.Channel//队列名称QueueName string//交换机ExChange string//keyKey string//连接信息MqUrl stringsync.Mutex}type ConsumeWatch struct {Callback func(delivery amqp.Delivery)}// NewRabbitMQSimple 创建新的消息队列func NewRabbitMQSimple(queueName string, exChange string, key string, url string) *RabbitMQ {rabbitMQ := &amp;RabbitMQ{QueueName: queueName,ExChange: exChange,Key: key,MqUrl: url,}var err errorrabbitMQ.">
   
 
-  <link rel="apple-touch-icon" sizes="180x180" href="https://example.com/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://example.com/favicon-32x32.png"> 
-  <link rel="icon" type="image/png" sizes="16x16" href="https://example.com/favicon-16x16.png"> 
-  <link rel="manifest" href="https://example.com/site.webmanifest"> 
-  <link rel="mask-icon" href="https://example.com/safari-pinned-tab.svg" color="#000000"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> 
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> 
+  <link rel="manifest" href="/site.webmanifest"> 
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"> 
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
@@ -150,7 +150,7 @@ package RabbitMqimport (&#34;fmt&#34;&#34;github.com/streadway/amqp&#34;&#34
     <div class="intro">
       <a
         class="logo"
-        href="https://example.com"
+        href="/"
         aria-label="Jardel blog home page"
       >
         <img 

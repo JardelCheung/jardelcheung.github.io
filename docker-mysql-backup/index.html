@@ -14,11 +14,11 @@
 #! /bin/bashBACKUP_DIR=&#34;&lt;备份sql保存位置&gt;&#34;LOG_FILE=&#34;&lt;LOG文件位置&gt;&#34;DATE=`date &#43;%Y-%m-%d_%H-%M`USER=&#34;数据库用户名&#34;PASSWORD=&#34;数据库密码&#34;DATABASE=&#34;数据库名&#34;SQL_FILE=&#34;mysql_$DATE.sql&#34;DOCKER_TAG=&#34;数据库docker name&#34;if [! -d $BACKUP_DIR];thenmkdir -p &#34;$BACKUP_DIR&#34;fiecho -e &#34;\n&#34; &gt;&gt; $LOG_FILEcd $BACKUP_DIRdocker exec -i $DOCKER_TAG mysqldump -u$USER -p$PASSWORD $DATABASE &gt; $SQL_FILEif [[ $? == 0 ]]; thentar czvf $SQL_FILE.gz $SQL_FILE &gt;&gt; $LOG_FILE 2&gt;&amp;1echo &#34;$DATE----- $SQL_FILE.gz backup success!&#34; &gt;&gt; $LOG_FILErm -f $SQL_FILEelseecho &#34;$DATE----- $SQL_FILE.gz backup fail!&#34; &gt;&gt; $LOG_FILEfi 定时删除超过规定时间的备份文件 新建一个clear_backup.">
   
 
-  <link rel="apple-touch-icon" sizes="180x180" href="https://example.com/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://example.com/favicon-32x32.png"> 
-  <link rel="icon" type="image/png" sizes="16x16" href="https://example.com/favicon-16x16.png"> 
-  <link rel="manifest" href="https://example.com/site.webmanifest"> 
-  <link rel="mask-icon" href="https://example.com/safari-pinned-tab.svg" color="#000000"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> 
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> 
+  <link rel="manifest" href="/site.webmanifest"> 
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"> 
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
@@ -150,7 +150,7 @@
     <div class="intro">
       <a
         class="logo"
-        href="https://example.com"
+        href="/"
         aria-label="Jardel blog home page"
       >
         <img 

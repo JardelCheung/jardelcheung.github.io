@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>develop on Jardel blog</title>
-    <link>https://example.com/tags/develop/</link>
+    <link>/tags/develop/</link>
     <description>Recent content in develop on Jardel blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 01:35:35 +0000</lastBuildDate><atom:link href="https://example.com/tags/develop/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jul 2021 01:35:35 +0000</lastBuildDate><atom:link href="/tags/develop/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>synology docker nexus</title>
-      <link>https://example.com/restful-api/</link>
+      <link>/restful-api/</link>
       <pubDate>Sat, 03 Jul 2021 01:35:35 +0000</pubDate>
       
-      <guid>https://example.com/restful-api/</guid>
+      <guid>/restful-api/</guid>
       <description>RESTful API 设计指南 出处 作者： 阮一峰 日期： 2014年5月22日 网络应用程序，分为前端和后端两个部分。当前的发展趋势，就是前端设备层出不穷（手机、平板、桌面电脑、其他专用设备&amp;hellip;&amp;hellip;）。
 因此，必须有一种统一的机制，方便不同的前端设备与后端进行通信。这导致API构架的流行，甚至出现&amp;quot;API First&amp;quot;的设计思想。RESTful API是目前比较成熟的一套互联网应用程序的API设计理论。我以前写过一篇《理解RESTful架构》，探讨如何理解这个概念。
 今天，我将介绍RESTful API的设计细节，探讨如何设计一套合理、好用的API。我的主要参考了两篇文章（1，2）。
@@ -43,47 +43,47 @@ DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
     
     <item>
       <title>golang rabbitmq</title>
-      <link>https://example.com/golang-rabbitmq/</link>
+      <link>/golang-rabbitmq/</link>
       <pubDate>Mon, 28 Jun 2021 10:45:36 +0000</pubDate>
       
-      <guid>https://example.com/golang-rabbitmq/</guid>
+      <guid>/golang-rabbitmq/</guid>
       <description>rabbitmq 简单模式 代码案例
 package RabbitMqimport (&amp;quot;fmt&amp;quot;&amp;quot;github.com/streadway/amqp&amp;quot;&amp;quot;log&amp;quot;&amp;quot;sync&amp;quot;)const MqUrl = &amp;quot;amqp://guest:guest@192.168.109.132:5672/&amp;quot;type RabbitMQ struct {conn *amqp.Connectionchannel *amqp.Channel//队列名称QueueName string//交换机ExChange string//keyKey string//连接信息MqUrl stringsync.Mutex}type ConsumeWatch struct {Callback func(delivery amqp.Delivery)}// NewRabbitMQSimple 创建新的消息队列func NewRabbitMQSimple(queueName string, exChange string, key string, url string) *RabbitMQ {rabbitMQ := &amp;amp;RabbitMQ{QueueName: queueName,ExChange: exChange,Key: key,MqUrl: url,}var err errorrabbitMQ.</description>
     </item>
     
     <item>
       <title>golang string2[]byte</title>
-      <link>https://example.com/golang-string2byte/</link>
+      <link>/golang-string2byte/</link>
       <pubDate>Wed, 16 Jun 2021 10:11:24 +0000</pubDate>
       
-      <guid>https://example.com/golang-string2byte/</guid>
+      <guid>/golang-string2byte/</guid>
       <description>string 转 []byte func str2bytes(s string) []byte {x := (*[2]uintptr)(unsafe.Pointer(&amp;amp;s))h := [3]uintptr{x[0], x[1], x[1]}return *(*[]byte)(unsafe.Pointer(&amp;amp;h))} []byte 转 string func bytes2str(b []byte) string {return *(*string)(unsafe.Pointer(&amp;amp;b))} </description>
     </item>
     
     <item>
       <title>docker-redis</title>
-      <link>https://example.com/docker-redis/</link>
+      <link>/docker-redis/</link>
       <pubDate>Tue, 15 Jun 2021 21:05:05 -0500</pubDate>
       
-      <guid>https://example.com/docker-redis/</guid>
+      <guid>/docker-redis/</guid>
       <description>拉取镜像 docker pull redis:latest  启动并挂载宿主机目录 (/usr/backup/redis)是我自己宿主机目录 docker run --name some-redis -v /usr/backup/redis:/data -p 6379:6379 -d redis redis-server --appendonly yes  官方文档路径</description>
     </item>
     
     <item>
       <title>npm config</title>
-      <link>https://example.com/npm-config/</link>
+      <link>/npm-config/</link>
       <pubDate>Sun, 13 Jun 2021 23:35:50 +0000</pubDate>
       
-      <guid>https://example.com/npm-config/</guid>
+      <guid>/npm-config/</guid>
       <description>npm 设置代理 npm config set proxy http://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;npm config set https-proxy https://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt; </description>
     </item>
     
     <item>
       <title>mac STF deploy</title>
-      <link>https://example.com/mac-stf-deploy/</link>
+      <link>/mac-stf-deploy/</link>
       <pubDate>Sun, 06 Jun 2021 12:41:41 +0000</pubDate>
       
-      <guid>https://example.com/mac-stf-deploy/</guid>
+      <guid>/mac-stf-deploy/</guid>
       <description>开发环境搭建 STF GitHub 地址
 需要使用brewhome 如何安装brewhome
 安装ndoejs 需要版本8.17.0 brew install node 安装rethinkdb 数据库 （可以在本地安装也可以使用docker跑一个容器） rethinkdb 文档
@@ -92,19 +92,19 @@ brew install rethinkdb 安装 graphicsmagick brew install graphicsmagick 安�
     
     <item>
       <title>Design Patterns</title>
-      <link>https://example.com/design-patterns/</link>
+      <link>/design-patterns/</link>
       <pubDate>Sun, 06 Jun 2021 12:12:14 +0000</pubDate>
       
-      <guid>https://example.com/design-patterns/</guid>
+      <guid>/design-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Driven Patterns</title>
-      <link>https://example.com/driven-patterns/</link>
+      <link>/driven-patterns/</link>
       <pubDate>Sun, 06 Jun 2021 12:12:14 +0000</pubDate>
       
-      <guid>https://example.com/driven-patterns/</guid>
+      <guid>/driven-patterns/</guid>
       <description>TDD：测试驱动开发(Test-Driven Development) 测试驱动开发是敏捷开发中的一项核心实践和技术，也是一种设计方法论，TDD首先考虑使用需求（对象、功能、过程、接口等）
 主要是编写测试用例框架对功能的过程和接口进行设计，而测试框架可以持续进行验证。大行其道的一些模式对TDD的支持都非常不错，比如MVC和MVP等
 BDD：行为驱动开发(Behavior Driven Development) 也就是行为驱动开发。这里的B并非指的是Business，实际上BDD可以看作是对TDD的一种补充，让开发、测试、BA以及客户都能在这个基础上达成一致，JBehave之类的BDD框架
@@ -114,10 +114,10 @@ DDD：领域驱动开发（Domain Drive Design） DDD指的是Domain Drive Desig
     
     <item>
       <title>adb shell</title>
-      <link>https://example.com/adb-shell/</link>
+      <link>/adb-shell/</link>
       <pubDate>Fri, 04 Jun 2021 17:48:56 +0000</pubDate>
       
-      <guid>https://example.com/adb-shell/</guid>
+      <guid>/adb-shell/</guid>
       <description>adb shell am [command] am =&amp;gt;是activity manager的缩写,它可以启动activity,启动service,发送广播等 pm =&amp;gt;就是package manager的缩写.
 发送一条广播
 adb -s BH909NJ676 shell am broadcast  adb 获取内存占用 adb shell dumpsys meminfo -hmeminfo dump options: [-a] [-d] [-c] [-s] [--oom] [process]-a: include all available information for each process.-d: include dalvik details.-c: dump in a compact machine-parseable representation.-s: dump only summary of application memory usage.-S: dump also SwapPss.--oom: only show processes organized by oom adj.</description>
@@ -125,10 +125,10 @@ adb -s BH909NJ676 shell am broadcast  adb 获取内存占用 adb shell dumpsys m
     
     <item>
       <title>git global config</title>
-      <link>https://example.com/git-config/</link>
+      <link>/git-config/</link>
       <pubDate>Fri, 04 Jun 2021 15:37:37 +0000</pubDate>
       
-      <guid>https://example.com/git-config/</guid>
+      <guid>/git-config/</guid>
       <description>设置全局代理 git config --global --unset http.proxygit config --global --unset https.proxygit config --global http.proxy &#39;http://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&#39;git config --global https.proxy &#39;https://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&#39; </description>
     </item>
     

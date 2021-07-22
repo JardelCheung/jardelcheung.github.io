@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jardel blog</title>
-    <link>https://example.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Jardel blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 09:32:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jul 2021 09:32:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>deploy</title>
-      <link>https://example.com/tags/deploy/</link>
+      <link>/tags/deploy/</link>
       <pubDate>Sat, 03 Jul 2021 09:32:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/deploy/</guid>
+      <guid>/tags/deploy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>develop</title>
-      <link>https://example.com/tags/develop/</link>
+      <link>/tags/develop/</link>
       <pubDate>Sat, 03 Jul 2021 01:35:35 +0000</pubDate>
       
-      <guid>https://example.com/tags/develop/</guid>
+      <guid>/tags/develop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://example.com/tags/golang/</link>
+      <link>/tags/golang/</link>
       <pubDate>Mon, 28 Jun 2021 10:45:36 +0000</pubDate>
       
-      <guid>https://example.com/tags/golang/</guid>
+      <guid>/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stf</title>
-      <link>https://example.com/tags/stf/</link>
+      <link>/tags/stf/</link>
       <pubDate>Sun, 06 Jun 2021 12:41:41 +0000</pubDate>
       
-      <guid>https://example.com/tags/stf/</guid>
+      <guid>/tags/stf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://example.com/tags/hugo/</link>
+      <link>/tags/hugo/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/hugo/</guid>
+      <guid>/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>katex</title>
-      <link>https://example.com/tags/katex/</link>
+      <link>/tags/katex/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/katex/</guid>
+      <guid>/tags/katex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>https://example.com/tags/math/</link>
+      <link>/tags/math/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/math/</guid>
+      <guid>/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>typesetting</title>
-      <link>https://example.com/tags/typesetting/</link>
+      <link>/tags/typesetting/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/tags/typesetting/</guid>
+      <guid>/tags/typesetting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcodes</title>
-      <link>https://example.com/tags/shortcodes/</link>
+      <link>/tags/shortcodes/</link>
       <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
       
-      <guid>https://example.com/tags/shortcodes/</guid>
+      <guid>/tags/shortcodes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nasa</title>
-      <link>https://example.com/tags/nasa/</link>
+      <link>/tags/nasa/</link>
       <pubDate>Thu, 27 Dec 2018 20:46:49 -0600</pubDate>
       
-      <guid>https://example.com/tags/nasa/</guid>
+      <guid>/tags/nasa/</guid>
       <description></description>
     </item>
     
