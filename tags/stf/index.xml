@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stf on Cupper</title>
+    <link>https://example.com/tags/stf/</link>
+    <description>Recent content in stf on Cupper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jun 2021 12:41:41 +0000</lastBuildDate><atom:link href="https://example.com/tags/stf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mac STF deploy</title>
+      <link>https://example.com/mac-stf-deploy/</link>
+      <pubDate>Sun, 06 Jun 2021 12:41:41 +0000</pubDate>
+      
+      <guid>https://example.com/mac-stf-deploy/</guid>
+      <description>开发环境搭建 STF GitHub 地址
+需要使用brewhome 如何安装brewhome
+安装ndoejs 需要版本8.17.0 brew install node 安装rethinkdb 数据库 （可以在本地安装也可以使用docker跑一个容器） rethinkdb 文档
+brew install rethinkdb 安装 graphicsmagick brew install graphicsmagick 安装 zeromq (当你处理nodejs里面的多服务之间的通讯或者分布式部署微服务需要用到) brew install zeromq 安装 protobuf （序列化数据工具，可以用来限制数据类型，stf接口，消息队列参数限制） brew install protobuf 安装pkg-config brew install pkg-config 安装bower npm install bower -g </description>
+    </item>
+    
+  </channel>
+</rss>

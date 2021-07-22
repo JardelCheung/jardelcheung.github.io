@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>develop on Cupper</title>
+    <link>https://example.com/tags/develop/</link>
+    <description>Recent content in develop on Cupper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 01:35:35 +0000</lastBuildDate><atom:link href="https://example.com/tags/develop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>synology docker nexus</title>
+      <link>https://example.com/restful-api/</link>
+      <pubDate>Sat, 03 Jul 2021 01:35:35 +0000</pubDate>
+      
+      <guid>https://example.com/restful-api/</guid>
+      <description>RESTful API 设计指南 出处 作者： 阮一峰 日期： 2014年5月22日 网络应用程序，分为前端和后端两个部分。当前的发展趋势，就是前端设备层出不穷（手机、平板、桌面电脑、其他专用设备&amp;hellip;&amp;hellip;）。
+因此，必须有一种统一的机制，方便不同的前端设备与后端进行通信。这导致API构架的流行，甚至出现&amp;quot;API First&amp;quot;的设计思想。RESTful API是目前比较成熟的一套互联网应用程序的API设计理论。我以前写过一篇《理解RESTful架构》，探讨如何理解这个概念。
+今天，我将介绍RESTful API的设计细节，探讨如何设计一套合理、好用的API。我的主要参考了两篇文章（1，2）。
+RESTful API 一、协议 API与用户的通信协议，总是使用HTTPs协议。 二、域名 应该尽量将API部署在专用域名之下。 https://api.example.com 如果确定API很简单，不会有进一步扩展，可以考虑放在主域名下。
+https://example.org/api/
+三、版本（Versioning） 应该将API的版本号放入URL。 https://api.example.com/v1/ 另一种做法是，将版本号放在HTTP头信息中，但不如放入URL方便和直观。Github采用这种做法。
+四、路径（Endpoint） 路径又称&amp;quot;终点&amp;quot;（endpoint），表示API的具体网址。 在RESTful架构中，每个网址代表一种资源（resource），所以网址中不能有动词，只能有名词，而且所用的名词往往与数据库的表格名对应。一般来说，数据库中的表都是同种记录的&amp;quot;集合&amp;quot; （collection），所以API中的名词也应该使用复数。
+举例来说，有一个API提供动物园（zoo）的信息，还包括各种动物和雇员的信息，则它的路径应该设计成下面这样。
+https://api.example.com/v1/zoos https://api.example.com/v1/animals https://api.example.com/v1/employees
+五、HTTP动词 对于资源的具体操作类型，由HTTP词表示。 常用的HTTP动词有下面五个（括号里是对应的SQL命令）。
+ GET（SELECT）：从服务器取出资源（一项或多项）。
+POST（CREATE）：在服务器新建一个资源。
+PUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。
+PATCH（UPDATE）：在服务器更新资源（客户端提供改变的属性）。
+DELETE（DELETE）：从服务器删除资源。 还有两个不常用的HTTP动词。
+HEAD：获取资源的元数据。
+OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的。 下面是一些例子。
+  GET /zoos：列出所有动物园
+POST /zoos：新建一个动物园
+GET /zoos/ID：获取某个指定动物园的信息
+PUT /zoos/ID：更新某个指定动物园的信息（提供该动物园的全部信息）
+PATCH /zoos/ID：更新某个指定动物园的信息（提供该动物园的部分信息）
+DELETE /zoos/ID：删除某个动物园
+GET /zoos/ID/animals：列出某个指定动物园的所有动物
+DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
+ 六、过滤信息（Filtering） 如果记录数量很多，服务器不可能都将它们返回给用户。API应该提供参数，过滤返回结果。 下面是一些常见的参数。</description>
+    </item>
+    
+    <item>
+      <title>golang rabbitmq</title>
+      <link>https://example.com/golang-rabbitmq/</link>
+      <pubDate>Mon, 28 Jun 2021 10:45:36 +0000</pubDate>
+      
+      <guid>https://example.com/golang-rabbitmq/</guid>
+      <description>rabbitmq 简单模式 代码案例
+package RabbitMqimport (&amp;quot;fmt&amp;quot;&amp;quot;github.com/streadway/amqp&amp;quot;&amp;quot;log&amp;quot;&amp;quot;sync&amp;quot;)const MqUrl = &amp;quot;amqp://guest:guest@192.168.109.132:5672/&amp;quot;type RabbitMQ struct {conn *amqp.Connectionchannel *amqp.Channel//队列名称QueueName string//交换机ExChange string//keyKey string//连接信息MqUrl stringsync.Mutex}type ConsumeWatch struct {Callback func(delivery amqp.Delivery)}// NewRabbitMQSimple 创建新的消息队列func NewRabbitMQSimple(queueName string, exChange string, key string, url string) *RabbitMQ {rabbitMQ := &amp;amp;RabbitMQ{QueueName: queueName,ExChange: exChange,Key: key,MqUrl: url,}var err errorrabbitMQ.</description>
+    </item>
+    
+    <item>
+      <title>golang string2[]byte</title>
+      <link>https://example.com/golang-string2byte/</link>
+      <pubDate>Wed, 16 Jun 2021 10:11:24 +0000</pubDate>
+      
+      <guid>https://example.com/golang-string2byte/</guid>
+      <description>string 转 []byte func str2bytes(s string) []byte {x := (*[2]uintptr)(unsafe.Pointer(&amp;amp;s))h := [3]uintptr{x[0], x[1], x[1]}return *(*[]byte)(unsafe.Pointer(&amp;amp;h))} []byte 转 string func bytes2str(b []byte) string {return *(*string)(unsafe.Pointer(&amp;amp;b))} </description>
+    </item>
+    
+    <item>
+      <title>docker-redis</title>
+      <link>https://example.com/docker-redis/</link>
+      <pubDate>Tue, 15 Jun 2021 21:05:05 -0500</pubDate>
+      
+      <guid>https://example.com/docker-redis/</guid>
+      <description>拉取镜像 docker pull redis:latest  启动并挂载宿主机目录 (/usr/backup/redis)是我自己宿主机目录 docker run --name some-redis -v /usr/backup/redis:/data -p 6379:6379 -d redis redis-server --appendonly yes  官方文档路径</description>
+    </item>
+    
+    <item>
+      <title>npm config</title>
+      <link>https://example.com/npm-config/</link>
+      <pubDate>Sun, 13 Jun 2021 23:35:50 +0000</pubDate>
+      
+      <guid>https://example.com/npm-config/</guid>
+      <description>npm 设置代理 npm config set proxy http://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;npm config set https-proxy https://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>mac STF deploy</title>
+      <link>https://example.com/mac-stf-deploy/</link>
+      <pubDate>Sun, 06 Jun 2021 12:41:41 +0000</pubDate>
+      
+      <guid>https://example.com/mac-stf-deploy/</guid>
+      <description>开发环境搭建 STF GitHub 地址
+需要使用brewhome 如何安装brewhome
+安装ndoejs 需要版本8.17.0 brew install node 安装rethinkdb 数据库 （可以在本地安装也可以使用docker跑一个容器） rethinkdb 文档
+brew install rethinkdb 安装 graphicsmagick brew install graphicsmagick 安装 zeromq (当你处理nodejs里面的多服务之间的通讯或者分布式部署微服务需要用到) brew install zeromq 安装 protobuf （序列化数据工具，可以用来限制数据类型，stf接口，消息队列参数限制） brew install protobuf 安装pkg-config brew install pkg-config 安装bower npm install bower -g </description>
+    </item>
+    
+    <item>
+      <title>Design Patterns</title>
+      <link>https://example.com/design-patterns/</link>
+      <pubDate>Sun, 06 Jun 2021 12:12:14 +0000</pubDate>
+      
+      <guid>https://example.com/design-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Driven Patterns</title>
+      <link>https://example.com/driven-patterns/</link>
+      <pubDate>Sun, 06 Jun 2021 12:12:14 +0000</pubDate>
+      
+      <guid>https://example.com/driven-patterns/</guid>
+      <description>TDD：测试驱动开发(Test-Driven Development) 测试驱动开发是敏捷开发中的一项核心实践和技术，也是一种设计方法论，TDD首先考虑使用需求（对象、功能、过程、接口等）
+主要是编写测试用例框架对功能的过程和接口进行设计，而测试框架可以持续进行验证。大行其道的一些模式对TDD的支持都非常不错，比如MVC和MVP等
+BDD：行为驱动开发(Behavior Driven Development) 也就是行为驱动开发。这里的B并非指的是Business，实际上BDD可以看作是对TDD的一种补充，让开发、测试、BA以及客户都能在这个基础上达成一致，JBehave之类的BDD框架
+ATDD：验收测试驱动开发（Acceptance Test Driven Development） 通过单元测试用例来驱动功能代码的实现，团队需要定义出期望的质量标准和验收细则，以明确而且达成共识的验收测试计划（包含一系列测试场景）来驱动开发人员的TDD实践和测试人员的测试脚本开发。面向开发人员，强调如何实现系统以及如何检验
+DDD：领域驱动开发（Domain Drive Design） DDD指的是Domain Drive Design，也就是领域驱动开发,DDD实际上也是建立在这个基础之上，因为它关注的是Service层的设计，着重于业务的实现,将分析和设计结合起来，不再使他们处于分裂的状态，这对于我们正确完整的实现客户的需求，以及建立一个具有业务伸缩性的模型</description>
+    </item>
+    
+    <item>
+      <title>adb shell</title>
+      <link>https://example.com/adb-shell/</link>
+      <pubDate>Fri, 04 Jun 2021 17:48:56 +0000</pubDate>
+      
+      <guid>https://example.com/adb-shell/</guid>
+      <description>adb shell am [command] am =&amp;gt;是activity manager的缩写,它可以启动activity,启动service,发送广播等 pm =&amp;gt;就是package manager的缩写.
+发送一条广播
+adb -s BH909NJ676 shell am broadcast  adb 获取内存占用 adb shell dumpsys meminfo -hmeminfo dump options: [-a] [-d] [-c] [-s] [--oom] [process]-a: include all available information for each process.-d: include dalvik details.-c: dump in a compact machine-parseable representation.-s: dump only summary of application memory usage.-S: dump also SwapPss.--oom: only show processes organized by oom adj.</description>
+    </item>
+    
+    <item>
+      <title>git global config</title>
+      <link>https://example.com/git-config/</link>
+      <pubDate>Fri, 04 Jun 2021 15:37:37 +0000</pubDate>
+      
+      <guid>https://example.com/git-config/</guid>
+      <description>设置全局代理 git config --global --unset http.proxygit config --global --unset https.proxygit config --global http.proxy &#39;http://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&#39;git config --global https.proxy &#39;https://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&#39; </description>
+    </item>
+    
+  </channel>
+</rss>
