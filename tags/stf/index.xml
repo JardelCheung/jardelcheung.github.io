@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>stf on Cupper</title>
+    <title>stf on Jardel blog</title>
     <link>https://example.com/tags/stf/</link>
-    <description>Recent content in stf on Cupper</description>
+    <description>Recent content in stf on Jardel blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Jun 2021 12:41:41 +0000</lastBuildDate><atom:link href="https://example.com/tags/stf/index.xml" rel="self" type="application/rss+xml" />
