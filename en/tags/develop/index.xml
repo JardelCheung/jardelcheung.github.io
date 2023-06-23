@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>develop on Jardel&#39;s blog</title>
+    <link>/en/tags/develop/</link>
+    <description>Recent content in develop on Jardel&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 24 Jan 2022 16:12:58 +0800</lastBuildDate><atom:link href="/en/tags/develop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lib</title>
+      <link>/en/2022/01/lib/</link>
+      <pubDate>Mon, 24 Jan 2022 16:12:58 +0800</pubDate>
+      
+      <guid>/en/2022/01/lib/</guid>
+      <description>Shared my starred lib of GitHub 🎨
+leafletjs Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps. Weighing just about 39 KB of JS, it has all the mapping features most developers ever need. https://github.com/Leaflet/Leaflet go-gin-example An example of gin contains many useful features https://github.com/eddycjy/go-gin-example react-boilerplate Crafted for highly scalable &amp;amp; performant and easily maintainable React.js applications with a focus on best DX and best practices. https://github.com/react-boilerplate/react-boilerplate-cra-template https://github.com/react-boilerplate/react-boilerplate x64dbg An open-source x64/x32 debugger for windows.</description>
+    </item>
+    
+    <item>
+      <title>TCP</title>
+      <link>/en/2022/01/tcp/</link>
+      <pubDate>Mon, 24 Jan 2022 15:59:40 +0800</pubDate>
+      
+      <guid>/en/2022/01/tcp/</guid>
+      <description>TCP/IP TCP/IP的含义 是利用ip进行实时通讯的协议群的统称
+规范 RFC(request for comment)即征求意见表；那些需要标准化的协议，会被计入RFC并在互联网上公布；RFC不仅包含协议规范内容，还包括协议实现和运用的相关信息，以及实验方面的信息 </description>
+    </item>
+    
+    <item>
+      <title>OSI</title>
+      <link>/en/2022/01/osi/</link>
+      <pubDate>Mon, 24 Jan 2022 15:56:16 +0800</pubDate>
+      
+      <guid>/en/2022/01/osi/</guid>
+      <description>OSI OSI定义 OSI（Open System Interconnect），即开放式系统互联。 一般都叫OSI参考模型，是ISO（国际标准化组织）组织在1985年研究的网络互连模型。 ISO为了更好的使网络应用更为普及，推出了OSI参考模型。其含义就是推荐所有公司使用这个规范来控制网络。这样所有公司都有相同的规范，就能互联了。
+七层模型的划分 OSI定义了网络七层(物理层、数据链路层、网络层、传输层、会话层、表示层、应用层) </description>
+    </item>
+    
+    <item>
+      <title>Pattern</title>
+      <link>/en/2022/01/pattern/</link>
+      <pubDate>Fri, 21 Jan 2022 17:15:28 +0800</pubDate>
+      
+      <guid>/en/2022/01/pattern/</guid>
+      <description>范围/目的 创建型模式 结构型模式 行为型模式 对象模式 单例/模型/抽象工厂/建造者 代理/（对象）适配器/桥接/装饰/外观/享元/组合 策略/命令/职责链/状态/观察者/中介者/迭代器/访问者/备忘录 单例模式(Singleton) 某个类只能生成一个实例，该类提供了一个全局访问点供外部获取该实例，其拓展是有限多例模式。
+原型模式(Prototype) 将一个对象作为原型，通过对其进行复制而克隆出多个和原型类似的新实例。
+工厂方法模式(Factory Method) 定义一个用于创建产品的接口，由子类决定生产什么产品。
+抽象工厂模式(AbstractFactory) 提供一个创建产品族的接口，其每个子类可以生产一系列相关的产品。
+建造者模式(Builder) 将一个复杂对象分解成多个相对简单的部分，然后根据不同需要分别创建它们，最后构建成该复杂对象。
+代理模式(Proxy) 为某对象提供一种代理以控制对该对象的访问。即客户端通过代理间接地访问该对象，从而限制、增强或修改该对象的一些特性。
+适配器模式(Adapter) 将一个类的接口转换成客户希望的另外一个接口，使得原本由于接口不兼容而不能一起工作的那些类能一起工作。
+桥接模式(Bridge) 将抽象与实现分离，使它们可以独立变化。它是用组合关系代替继承关系来实现，从而降低了抽象和实现这两个可变维度的耦合度。
+装饰模式(Decorator) 动态的给对象增加一些职责，即增加其额外的功能。
+外观模式(Facade) 为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问。
+享元模式(Flyweight) 运用共享技术来有效地支持大量细粒度对象的复用。
+组合模式(Composite) 将对象组合成树状层次结构，使用户对单个对象和组合对象具有一致的访问性。
+模板方法(TemplateMethod) 定义一个操作中的算法骨架，而将算法的一些步骤延迟到子类中，使得子类可以不改变该算法结构的情况下重定义该算法的某些特定步骤。
+策略模式(Strategy) 定义了一系列算法，并将每个算法封装起来，使它们可以相互替换，且算法的改变不会影响使用算法的客户。
+命令模式(Command) 将一个请求封装为一个对象，使发出请求的责任和执行请求的责任分割开。
+职责链模式(Chain of Responsibility) 把请求从链中的一个对象传到下一个对象，直到请求被响应为止。通过这种方式去除对象之间的耦合。
+状态模式(State) 允许一个对象在其内部状态发生改变时改变其行为能力。
+观察者模式(Observer) 多个对象间存在一对多关系，当一个对象发生改变时，把这种改变通知给其他多个对象，从而影响其他对象的行为。
+中介者模式(Mediator) 定义一个中介对象来简化原有对象之间的交互关系，降低系统中对象间的耦合度，使原有对象之间不必相互了解。
+迭代器模式(Iterator) 提供一种方法来顺序访问聚合对象中的一系列数据，而不暴露聚合对象的内部表示。
+访问者模式(Visitor) 在不改变集合元素的前提下，为一个集合中的每个元素提供多种访问方式，即每个元素有多个访问者对象访问。
+备忘录模式(Memento) 在不破坏封装性的前提下，获取并保存一个对象的内部状态，以便以后恢复它。
+解释器模式(Interpreter) 提供如何定义语言的文法，以及对语言句子的解释方法，即解释器。</description>
+    </item>
+    
+    <item>
+      <title>Principle</title>
+      <link>/en/2022/01/principle/</link>
+      <pubDate>Fri, 21 Jan 2022 16:57:52 +0800</pubDate>
+      
+      <guid>/en/2022/01/principle/</guid>
+      <description>开闭原则(Open-Closed Principle, OCP) 一个软件实体应当对扩展开放，对修改关闭。即软件实体应尽量在不修改原有代码的情况下进行扩展。
+单一职责原则(Single Responsibility Principle, SRP 一个类只负责一个功能领域中的相应职责，或者可以定义为：就一个类而言，应该只有一个引起它变化的原因。
+里氏替换原则(Liskov Substitution Principle, LSP) 所有引用基类（父类）的地方必须能透明地使用其子类的对象。
+依赖倒置原则(Dependency Inversion Principle, DIP) 抽象不应该依赖于细节，细节应当依赖于抽象。换言之，要针对接口编程，而不是针对实现编程。
+接口隔离原则(Interface Segregation Principle, ISP) 使用多个专门的接口，而不使用单一的总接口，即客户端不应该依赖那些它不需要的接口。
+迪米特法则(Law of Demeter, LoD) 一个软件实体应当尽可能少地与其他实体发生相互作用。
+合成复用原则（Composite Reuse Principle） 尽量首先使用合成/聚合的方式，而不是使用继承。</description>
+    </item>
+    
+    <item>
+      <title>Mac Install STF</title>
+      <link>/en/2021/08/mac-install/</link>
+      <pubDate>Wed, 11 Aug 2021 15:58:06 +0800</pubDate>
+      
+      <guid>/en/2021/08/mac-install/</guid>
+      <description>install stf install nodejs@8 click me
+OR
+brew install nvm
+THEN
+nvm install v8.17.0&amp;amp;&amp;amp;nvm use v8.17.0
+install adb brew install android-platform-tools
+install graphicsmagick brew install graphicsmagick
+install zeromq brew install zeromq
+install protobuf brew install protobuf
+install rethinkdb brew install rethinkdb
+clone stf source code git clone https://github.com/DeviceFarmer/stf.git stf
+install depend IF you use macbook CPU is m1 chip
+Modify package.json
+{ ... &amp;quot;yauzl&amp;quot;: &amp;quot;^2.10.0&amp;quot;, - &amp;quot;zmq&amp;quot;: &amp;quot;^2.14.0&amp;quot;, + &amp;quot;zeromq&amp;quot;: &amp;quot;^5.</description>
+    </item>
+    
+    <item>
+      <title>synology docker nexus</title>
+      <link>/en/2021/07/restful-api/</link>
+      <pubDate>Sat, 03 Jul 2021 01:35:35 +0000</pubDate>
+      
+      <guid>/en/2021/07/restful-api/</guid>
+      <description>RESTful API 设计指南 出处 作者： 阮一峰 日期： 2014年5月22日 网络应用程序，分为前端和后端两个部分。当前的发展趋势，就是前端设备层出不穷（手机、平板、桌面电脑、其他专用设备&amp;hellip;&amp;hellip;）。
+因此，必须有一种统一的机制，方便不同的前端设备与后端进行通信。这导致API构架的流行，甚至出现&amp;quot;API First&amp;quot;的设计思想。RESTful API是目前比较成熟的一套互联网应用程序的API设计理论。我以前写过一篇《理解RESTful架构》，探讨如何理解这个概念。
+今天，我将介绍RESTful API的设计细节，探讨如何设计一套合理、好用的API。我的主要参考了两篇文章（1，2）。
+RESTful API 一、协议 API与用户的通信协议，总是使用HTTPs协议。 二、域名 应该尽量将API部署在专用域名之下。 https://api.example.com 如果确定API很简单，不会有进一步扩展，可以考虑放在主域名下。
+https://example.org/api/
+三、版本（Versioning） 应该将API的版本号放入URL。 https://api.example.com/v1/ 另一种做法是，将版本号放在HTTP头信息中，但不如放入URL方便和直观。Github采用这种做法。
+四、路径（Endpoint） 路径又称&amp;quot;终点&amp;quot;（endpoint），表示API的具体网址。 在RESTful架构中，每个网址代表一种资源（resource），所以网址中不能有动词，只能有名词，而且所用的名词往往与数据库的表格名对应。一般来说，数据库中的表都是同种记录的&amp;quot;集合&amp;quot; （collection），所以API中的名词也应该使用复数。
+举例来说，有一个API提供动物园（zoo）的信息，还包括各种动物和雇员的信息，则它的路径应该设计成下面这样。
+https://api.example.com/v1/zoos https://api.example.com/v1/animals https://api.example.com/v1/employees
+五、HTTP动词 对于资源的具体操作类型，由HTTP词表示。 常用的HTTP动词有下面五个（括号里是对应的SQL命令）。
+GET（SELECT）：从服务器取出资源（一项或多项）。
+POST（CREATE）：在服务器新建一个资源。
+PUT（UPDATE）：在服务器更新资源（客户端提供改变后的完整资源）。
+PATCH（UPDATE）：在服务器更新资源（客户端提供改变的属性）。
+DELETE（DELETE）：从服务器删除资源。 还有两个不常用的HTTP动词。
+HEAD：获取资源的元数据。
+OPTIONS：获取信息，关于资源的哪些属性是客户端可以改变的。 下面是一些例子。
+GET /zoos：列出所有动物园
+POST /zoos：新建一个动物园
+GET /zoos/ID：获取某个指定动物园的信息
+PUT /zoos/ID：更新某个指定动物园的信息（提供该动物园的全部信息）
+PATCH /zoos/ID：更新某个指定动物园的信息（提供该动物园的部分信息）
+DELETE /zoos/ID：删除某个动物园
+GET /zoos/ID/animals：列出某个指定动物园的所有动物
+DELETE /zoos/ID/animals/ID：删除某个指定动物园的指定动物
+六、过滤信息（Filtering） 如果记录数量很多，服务器不可能都将它们返回给用户。API应该提供参数，过滤返回结果。 下面是一些常见的参数。
+?limit=10：指定返回记录的数量
+?offset=10：指定返回记录的开始位置。
+?page=2&amp;amp;per_page=100：指定第几页，以及每页的记录数。
+?sortby=name&amp;amp;order=asc：指定返回结果按照哪个属性排序，以及排序顺序。</description>
+    </item>
+    
+    <item>
+      <title>golang rabbitmq</title>
+      <link>/en/2021/06/golang-rabbitmq/</link>
+      <pubDate>Mon, 28 Jun 2021 10:45:36 +0000</pubDate>
+      
+      <guid>/en/2021/06/golang-rabbitmq/</guid>
+      <description>rabbitmq 简单模式 代码案例
+package RabbitMq import ( &amp;quot;fmt&amp;quot; &amp;quot;github.com/streadway/amqp&amp;quot; &amp;quot;log&amp;quot; &amp;quot;sync&amp;quot; ) const MqUrl = &amp;quot;amqp://guest:guest@192.168.109.132:5672/&amp;quot; type RabbitMQ struct { conn *amqp.Connection channel *amqp.Channel //队列名称 QueueName string //交换机 ExChange string //key Key string //连接信息 MqUrl string sync.Mutex } type ConsumeWatch struct { Callback func(delivery amqp.Delivery) } // NewRabbitMQSimple 创建新的消息队列 func NewRabbitMQSimple(queueName string, exChange string, key string, url string) *RabbitMQ { rabbitMQ := &amp;amp;RabbitMQ{ QueueName: queueName, ExChange: exChange, Key: key, MqUrl: url, } var err error rabbitMQ.</description>
+    </item>
+    
+    <item>
+      <title>golang string2[]byte</title>
+      <link>/en/2021/06/golang-string2byte/</link>
+      <pubDate>Wed, 16 Jun 2021 10:11:24 +0000</pubDate>
+      
+      <guid>/en/2021/06/golang-string2byte/</guid>
+      <description>string 转 []byte func str2bytes(s string) []byte { x := (*[2]uintptr)(unsafe.Pointer(&amp;amp;s)) h := [3]uintptr{x[0], x[1], x[1]} return *(*[]byte)(unsafe.Pointer(&amp;amp;h)) } []byte 转 string func bytes2str(b []byte) string { return *(*string)(unsafe.Pointer(&amp;amp;b)) } </description>
+    </item>
+    
+    <item>
+      <title>docker-redis</title>
+      <link>/en/2021/06/docker-redis/</link>
+      <pubDate>Tue, 15 Jun 2021 21:05:05 -0500</pubDate>
+      
+      <guid>/en/2021/06/docker-redis/</guid>
+      <description>拉取镜像 docker pull redis:latest 启动并挂载宿主机目录 (/usr/backup/redis)是我自己宿主机目录 docker run --name some-redis -v /usr/backup/redis:/data -p 6379:6379 -d redis redis-server --appendonly yes 官方文档路径</description>
+    </item>
+    
+    <item>
+      <title>npm config</title>
+      <link>/en/2021/06/npm-config/</link>
+      <pubDate>Sun, 13 Jun 2021 23:35:50 +0000</pubDate>
+      
+      <guid>/en/2021/06/npm-config/</guid>
+      <description>npm 设置代理 npm config set proxy http://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt; npm config set https-proxy https://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>mac STF deploy</title>
+      <link>/en/2021/06/mac-stf-deploy/</link>
+      <pubDate>Sun, 06 Jun 2021 12:41:41 +0000</pubDate>
+      
+      <guid>/en/2021/06/mac-stf-deploy/</guid>
+      <description>开发环境搭建 STF GitHub 地址
+需要使用brewhome 如何安装brewhome
+安装ndoejs 需要版本8.17.0 brew install node 安装rethinkdb 数据库 （可以在本地安装也可以使用docker跑一个容器） rethinkdb 文档
+brew install rethinkdb 安装 graphicsmagick brew install graphicsmagick 安装 zeromq (当你处理nodejs里面的多服务之间的通讯或者分布式部署微服务需要用到) brew install zeromq 安装 protobuf （序列化数据工具，可以用来限制数据类型，stf接口，消息队列参数限制） brew install protobuf 安装pkg-config brew install pkg-config 安装bower npm install bower -g </description>
+    </item>
+    
+    <item>
+      <title>Design Patterns</title>
+      <link>/en/2021/06/design-patterns/</link>
+      <pubDate>Sun, 06 Jun 2021 12:12:14 +0000</pubDate>
+      
+      <guid>/en/2021/06/design-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Driven Patterns</title>
+      <link>/en/2021/06/driven-patterns/</link>
+      <pubDate>Sun, 06 Jun 2021 12:12:14 +0000</pubDate>
+      
+      <guid>/en/2021/06/driven-patterns/</guid>
+      <description>TDD：测试驱动开发(Test-Driven Development) 测试驱动开发是敏捷开发中的一项核心实践和技术，也是一种设计方法论，TDD首先考虑使用需求（对象、功能、过程、接口等）
+主要是编写测试用例框架对功能的过程和接口进行设计，而测试框架可以持续进行验证。大行其道的一些模式对TDD的支持都非常不错，比如MVC和MVP等
+BDD：行为驱动开发(Behavior Driven Development) 也就是行为驱动开发。这里的B并非指的是Business，实际上BDD可以看作是对TDD的一种补充，让开发、测试、BA以及客户都能在这个基础上达成一致，JBehave之类的BDD框架
+ATDD：验收测试驱动开发（Acceptance Test Driven Development） 通过单元测试用例来驱动功能代码的实现，团队需要定义出期望的质量标准和验收细则，以明确而且达成共识的验收测试计划（包含一系列测试场景）来驱动开发人员的TDD实践和测试人员的测试脚本开发。面向开发人员，强调如何实现系统以及如何检验
+DDD：领域驱动开发（Domain Drive Design） DDD指的是Domain Drive Design，也就是领域驱动开发,DDD实际上也是建立在这个基础之上，因为它关注的是Service层的设计，着重于业务的实现,将分析和设计结合起来，不再使他们处于分裂的状态，这对于我们正确完整的实现客户的需求，以及建立一个具有业务伸缩性的模型</description>
+    </item>
+    
+    <item>
+      <title>adb shell</title>
+      <link>/en/2021/06/adb-shell/</link>
+      <pubDate>Fri, 04 Jun 2021 17:48:56 +0000</pubDate>
+      
+      <guid>/en/2021/06/adb-shell/</guid>
+      <description>adb shell am [command] am =&amp;gt;是activity manager的缩写,它可以启动activity,启动service,发送广播等 pm =&amp;gt;就是package manager的缩写.
+发送一条广播
+adb -s BH909NJ676 shell am broadcast adb 获取内存占用 adb shell dumpsys meminfo -h meminfo dump options: [-a] [-d] [-c] [-s] [--oom] [process] -a: include all available information for each process. -d: include dalvik details. -c: dump in a compact machine-parseable representation. -s: dump only summary of application memory usage. -S: dump also SwapPss. --oom: only show processes organized by oom adj.</description>
+    </item>
+    
+    <item>
+      <title>git global config</title>
+      <link>/en/2021/06/git-config/</link>
+      <pubDate>Fri, 04 Jun 2021 15:37:37 +0000</pubDate>
+      
+      <guid>/en/2021/06/git-config/</guid>
+      <description>设置全局代理 git config --global --unset http.proxy git config --global --unset https.proxy git config --global http.proxy &#39;http://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&#39; git config --global https.proxy &#39;https://&amp;lt;username&amp;gt;:&amp;lt;password&amp;gt;@&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;&#39; </description>
+    </item>
+    
+  </channel>
+</rss>

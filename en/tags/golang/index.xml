@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Jardel&#39;s blog</title>
+    <link>/en/tags/golang/</link>
+    <description>Recent content in golang on Jardel&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 28 Jun 2021 10:45:36 +0000</lastBuildDate><atom:link href="/en/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>golang rabbitmq</title>
+      <link>/en/2021/06/golang-rabbitmq/</link>
+      <pubDate>Mon, 28 Jun 2021 10:45:36 +0000</pubDate>
+      
+      <guid>/en/2021/06/golang-rabbitmq/</guid>
+      <description>rabbitmq 简单模式 代码案例
+package RabbitMq import ( &amp;quot;fmt&amp;quot; &amp;quot;github.com/streadway/amqp&amp;quot; &amp;quot;log&amp;quot; &amp;quot;sync&amp;quot; ) const MqUrl = &amp;quot;amqp://guest:guest@192.168.109.132:5672/&amp;quot; type RabbitMQ struct { conn *amqp.Connection channel *amqp.Channel //队列名称 QueueName string //交换机 ExChange string //key Key string //连接信息 MqUrl string sync.Mutex } type ConsumeWatch struct { Callback func(delivery amqp.Delivery) } // NewRabbitMQSimple 创建新的消息队列 func NewRabbitMQSimple(queueName string, exChange string, key string, url string) *RabbitMQ { rabbitMQ := &amp;amp;RabbitMQ{ QueueName: queueName, ExChange: exChange, Key: key, MqUrl: url, } var err error rabbitMQ.</description>
+    </item>
+    
+    <item>
+      <title>golang string2[]byte</title>
+      <link>/en/2021/06/golang-string2byte/</link>
+      <pubDate>Wed, 16 Jun 2021 10:11:24 +0000</pubDate>
+      
+      <guid>/en/2021/06/golang-string2byte/</guid>
+      <description>string 转 []byte func str2bytes(s string) []byte { x := (*[2]uintptr)(unsafe.Pointer(&amp;amp;s)) h := [3]uintptr{x[0], x[1], x[1]} return *(*[]byte)(unsafe.Pointer(&amp;amp;h)) } []byte 转 string func bytes2str(b []byte) string { return *(*string)(unsafe.Pointer(&amp;amp;b)) } </description>
+    </item>
+    
+  </channel>
+</rss>

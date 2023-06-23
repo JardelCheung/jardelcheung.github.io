@@ -1,7 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2339a65f-f03a-47d4-b30a-0bb3859c26e4" name="Default Changelist" comment="release: :tada: bootstrap" />
+    <list default="true" id="2339a65f-f03a-47d4-b30a-0bb3859c26e4" name="Default Changelist" comment="release: :tada: bootstrap">
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adb-shell/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom_01.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom_02.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/miriamlibre-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/miriamlibre-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/arrow_effect.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/icon-tick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/images/stripe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/search.54f9a90ceddfdaa3e66698090e7d4a7e7a7f217c85bc79c48ed09c8cb3ee6777.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cupper-shortcodes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cupper-shortcodes/sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cupper-shortcodes/sun_huc3d26fbb16c0f70400041133778c1446_3118921_700x0_resize_q99_box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design-patterns/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-mysql-backup/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-redis/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driven-patterns/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git-config/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/golang-rabbitmq/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/golang-string2byte/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-chrome-android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-chrome.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-edge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-firefox-android.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-firefox.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-ie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-opera.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-safari-ios.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/browser-safari.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon-info.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon-tag.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon-warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom_01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom_02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dom-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/prism.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/search.da4e0819db35e5fc5289562d46cf4a2173684e337d69d997639a24b79ecd6416.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/service-worker-registration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/katex-math-typesetting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mac-stf-deploy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-images/earth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-images/earth_huaae7be4ba70df7325b57cd351ea21ee7_518573_700x0_resize_q99_box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-images/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-images/moon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-images/moon_huaae7be4ba70df7325b57cd351ea21ee7_381038_700x0_resize_q99_box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-images/sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nasa-images/sun_huc3d26fbb16c0f70400041133778c1446_3118921_700x0_resize_q99_box.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-config/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restful-api/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/synology-nexus-deploy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/deploy/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/deploy/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/develop/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/develop/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/golang/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/golang/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/hugo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/hugo/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/katex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/katex/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/math/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/math/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/nasa/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/nasa/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/shortcodes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/shortcodes/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/stf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/stf/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/typesetting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tags/typesetting/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu-ufw/index.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +102,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1vev2G0Y35TQfaciwdV46H7s5IS" />
   <component name="ProjectLevelVcsManager">
@@ -19,21 +118,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,6 +146,7 @@
       <updated>1626935163659</updated>
       <workItem from="1626935168597" duration="2037000" />
       <workItem from="1626939662122" duration="862000" />
+      <workItem from="1687501278687" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="release: :tada: bootstrap">
       <created>1626935556933</created>
@@ -75,10 +178,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="release: :tada: bootstrap" />
     <option name="LAST_COMMIT_MESSAGE" value="release: :tada: bootstrap" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

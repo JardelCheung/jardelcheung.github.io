@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>javascript on Jardel&#39;s blog</title>
+    <link>/tags/javascript/</link>
+    <description>Recent content in javascript on Jardel&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 24 Jan 2022 16:12:58 +0800</lastBuildDate><atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>好用的开源仓库</title>
+      <link>/2022/01/lib/</link>
+      <pubDate>Mon, 24 Jan 2022 16:12:58 +0800</pubDate>
+      
+      <guid>/2022/01/lib/</guid>
+      <description>分享我关注的开源仓库 🎨
+leafletjs Leaflet is the leading open-source JavaScript library for mobile-friendly interactive maps. Weighing just about 39 KB of JS, it has all the mapping features most developers ever need. https://github.com/Leaflet/Leaflet go-gin-example An example of gin contains many useful features https://github.com/eddycjy/go-gin-example react-boilerplate Crafted for highly scalable &amp;amp; performant and easily maintainable React.js applications with a focus on best DX and best practices. https://github.com/react-boilerplate/react-boilerplate-cra-template https://github.com/react-boilerplate/react-boilerplate x64dbg An open-source x64/x32 debugger for windows.</description>
+    </item>
+    
+  </channel>
+</rss>
